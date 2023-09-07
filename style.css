@@ -1,0 +1,260 @@
+#logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 60px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+}
+
+li{
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.middleItems a{
+    text-decoration: none;
+    color: rgb(74, 74, 74)    ;
+}
+input{
+    border-color: rgb(115, 119, 122);
+    border-radius: 15px;
+    width: 300px;
+    height: 35px;
+    box-shadow: 2px 2px rgb(175, 180, 182);
+}
+input::placeholder{
+    font-size: 12px;
+    align-items: center;
+    padding: 60px;
+}
+.search-button{  
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+#profileimage{
+    padding-right: 60px;
+}
+
+.news{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 20px;
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(4, 48, 33);
+    box-shadow: 10px,0px,10px rgb(67, 89, 81);
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: rgb(4, 48, 33);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.menu-images img{
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+}
+
+.menu-images p{
+    text-align: center;
+    font-weight: 500;
+}
+
+.menu-titles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-main{
+    border-radius: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: rgba(255, 203, 126, 0.609);
+}
+
+.card-img{
+    margin-left: 15px;
+}
+.card-img img{
+    height: 200px;
+}
+.card-content{
+    position: absolute;
+    left: 250px;
+    margin-top: 20px;
+}
+
+#text-rate{
+    font-weight: 200;
+    font-size: small;
+}
+#rate{
+    font-weight: 600;
+    font-size: medium;
+    content: "\20B9";
+}
+
+.Latestofferings{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    color: rgb(4, 48, 33);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.main-menu{
+    padding: 5px;
+    height: 400px;
+    width: 1060px;
+    /* background-color: antiquewhite; */
+    margin-left: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1{
+    height: 380px;
+    width: 300px;
+    /* background-color: aquamarine; */
+}
+
+.menu2{
+    height: 380px;
+    width: 300px;
+    /* background-color: aquamarine; */
+}
+
+.menu3{
+    height: 380px;
+    width: 300px;
+    /* background-color: aquamarine; */
+}
+
+.menu1 img{
+    height: 180px;
+    width: 350px;
+    object-fit: cover;
+}
+.menu2 img{
+    height: 180px;
+    width: 350px;
+    object-fit: cover;
+}
+.menu3 img{
+    height: 180px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.main-menu img{
+    border-radius: 10px;
+}
+
+.main-menu p{
+    font-size: 10px;;
+}
+
+.main-menu h6{
+    margin-top: 20px;
+}
+
+.main-menu button{
+    background-color: rgb(3, 88, 3);
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+}
+
+.recommendation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: rgb(4, 48, 33);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.background{
+    background-color: rgb(209, 208, 208);
+    height: 350px;
+}
+
+.recom-back{
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    width: 350px;
+    margin-left: 80px;
+    justify-content: space-evenly;
+}
+.recom-title{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.recom-title img{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.recom-back button{
+    background-color: rgb(3, 88, 3);
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+}
+
+.bott{
+    display: flex;
+}
+
+.card-recommend{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer{
+    height: 400px;
+    background-color: rgb(17, 83, 17);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer li{
+    list-style-type: none;
+}
